@@ -1,0 +1,338 @@
+pytorch2.1.0:¹œ
+û
+sigma
+onnx::MatMul_27/fc1/MatMul_output_0/fc1/MatMul"MatMul2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(24): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+ú
+fc1.bias
+/fc1/MatMul_output_0/fc1/Add_output_0/fc1/Add"Add2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(24): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+é
+/fc1/Add_output_0/Tanh_output_0/Tanh"Tanh2¶C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py(1976): tanh
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(24): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+„
+/Tanh_output_0
+onnx::MatMul_28/fc2/MatMul_output_0/fc2/MatMul"MatMul2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(25): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+ú
+fc2.bias
+/fc2/MatMul_output_0/fc2/Add_output_0/fc2/Add"Add2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(25): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+í
+/fc2/Add_output_0/Tanh_1_output_0/Tanh_1"Tanh2¶C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py(1976): tanh
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(25): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+†
+/Tanh_1_output_0
+onnx::MatMul_29/fc3/MatMul_output_0/fc3/MatMul"MatMul2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(26): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+ú
+fc3.bias
+/fc3/MatMul_output_0/fc3/Add_output_0/fc3/Add"Add2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(26): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+í
+/fc3/Add_output_0/Tanh_2_output_0/Tanh_2"Tanh2¶C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py(1976): tanh
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(26): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+†
+/Tanh_2_output_0
+onnx::MatMul_30/fc4/MatMul_output_0/fc4/MatMul"MatMul2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(27): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+ú
+fc4.bias
+/fc4/MatMul_output_0/fc4/Add_output_0/fc4/Add"Add2µC:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(27): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+ı
+/fc4/Add_output_0/Tanh_3_output_0/Tanh_3"Tanh2Æc:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(27): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+ˆ/Constant_output_0	/Constant"Constant*
+value*J  €@ 2Æc:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(27): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+
+‚
+/Tanh_3_output_0
+/Constant_output_0Action/Mul"Mul2Æc:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\DDPG.py(27): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1495): _slow_forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(119): wrapper
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(128): forward
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1514): _call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1505): _wrapped_call_impl
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1271): _get_trace_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\external_utils.py(17): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_dynamo\eval_frame.py(294): _fn
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_compile.py(24): inner
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(904): _trace_and_get_graph_from_model
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1000): _create_jit_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1124): _model_to_graph
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1568): _export
+C:\Users\é»„æ™“é˜³\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(507): export
+c:\Users\é»„æ™“é˜³\OneDrive - mail.nwpu.edu.cn\Programs\python\terminalAngleRL\netToONNX.py(15): <module>
+	torch_jit*0Bfc1.biasJ “÷À*„?–?ç?ïLCÀ7åÄ¿2@EÓ~?ëâ¿*PBfc2.biasJ@°ÃBÀ¹e?:²@M÷À‚À¾ÎO1?]-ÀÖF€?bT¿×Jü¿ù7>½U‹À¸ä£À;½uÀCÈ|Àò¢Q¾*0Bfc3.biasJ ‰Õ†?Õ ¾¬³Àyve@NÒ@ñÀ(Áˆ>ƒë'A*Bfc4.biasJ¥ì¾*YBonnx::MatMul_27J@óŒ¿Tû„?V@3-?V@H2?”h?aœa?­@`âŸ¾-ı»?V’gÀ*Vã¾ğ¡&@‹–Q¿õ'¿*šBonnx::MatMul_28J€„åÕÀSŞ@<rƒÀƒ?A¿Ğ]@@Õ¤?†eb¿jª¸¿­¿Q:ÀÒŸ.Àuo?n3Ï¾W¿À?úäpÀ£¿-ãÂÀ¤ÊÀLäË@5D!@+Ôx@û<K>›aˆ>ÿHˆÀàÉ@@9ı‡¿•QpÀ“è÷À••Ax,€À‘@Ó-m¾Ã¹ÇÀëó@Õ–Á¬?~#Àwp@#Æ£¾×-À{I¼@†?¾9’à¿®÷!@?~K@ÕxÜ@—)×¿8&ó½I0éÀ‡F®¿úD‘¿‚æ#?1·?.9·¾’¶X@Í¥ğ?‰hp>º6ÀÀ–D@¶*B¿ó™¿3'ÀF6ò¿fÔÀº{À2±>¿ÆLÀÏ¾šË‹>ÏMú¿ü°,?2@À¸¿¿>måQ¿n¨£@/Ò-?Îq·?ınÀ#{ï;Nım@1”ÈÀÓ4¯¿ùÑ>â<{ÀqpÉ½ûô<@'¿¿bq;À…b?:W0@K¦.@‰äG?·Â’?„`?d+ğ>U/?óÎ
+À£€@Cãu>câ ?ÂÍ€?ù@VŞ­@8Ì¾D­Àjp¹@L•H?1‰@‰„û¿—âjÀX¿oë ¿/ñZ@‘õ?š#?Y€¿ÅM¿º¢*?¯â®@zõ¿N¡Ö¾ØTŒÀ6=ãÀÍÌ‘Àe|²?*šBonnx::MatMul_29J€å?EêÕ=Ï#¿Ëxƒ?»¿¼§ó?wÇ@$FÁÖöÀE|?¡¯çº€^À^—ÀBÀÍ£`@}€	AŠØæ@;>!@r>F¼™¾O¾u¦@÷å€Àÿ+¤ÀÇ<™¾\=ZÕ=h–4¿«;´¾¾<#?“øî?Yï@³E?lj\½L¼É=•·Ò?~Ğ#@¢`‘@Ö!?]M@½ëkÀK6
+¿;Õ‘?]%À oÀ8«tÀ¥ê@‹ÆËÁÎÉAE¾Xf>íß@¸¿Ê@Ìå¿-´ŸÀª*ô¿kÖ½jo¾÷¼>?~‹½?·İxÀ.ÛA^; @'­À¥{¾¬ÿé?
+ˆ×>Úâ[>!àw¿î…Ú@öz[@
+şÀyı@>şó*?È¿¾†¾½dÀ=Ía>¡îF@_¿ºÀ¬¸1¾z^?å_¿ê\P@Ø‹cÀ#–™?,¸<@_%Á¦"¡?£w¿|ÀÀÔÌ<@k$¼?ûÑ·¾»í¾ÀÄíï>zO³¾·N¿Ì@«?×ab>"ã@×3@fÉµÀ
+G–@ºg¾,S'?íĞ¾j-=>xÁ¨?^8ÏÀ$"À\;ÁÀğœ¾¾	`Ã>Ä|¿óÆ?afÀPån¿LTÑ?Å«bÀÊÕ½üzÇ>dÃœ¿óˆ•@Aû^¿ê°ö?D”º@*9Bonnx::MatMul_30J "”W¼ÚH>5àâ¿Õ.m¿ˆˆÏ½¨.>/í(=sVÔ½Z
+sigma
+
+
+b
+Action
+
+
+B
