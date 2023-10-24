@@ -13,13 +13,14 @@ import os
 if __name__ == "__main__":
     writer = SummaryWriter()
     start_num = 0
-    deleted = False
-    model_save_folder = "v820_3/"
+    deleted = start_num == 0
+    model_save_folder = "v1023/"
     model_load_path = model_save_folder + f"checkpoints/checkpoint{start_num}.pth"
     buffer_load_path = model_save_folder + f"checkpoints/buffer.pth"
     device = "cpu"
     torch.set_num_threads(8)
     # device = 'cuda'
+    
 
     showFig_iteration = 50  # save trajectories images
     model_save_iteration = 500  # save the training model as **.pth
@@ -28,16 +29,16 @@ if __name__ == "__main__":
     )
     data_save_iteration = 100 * data_record_iteration  # save key data to file
     test_iteration = 500  # test the model by an random scenario
-    repeat_num = 20  # number of simulations required for an exploration
+    repeat_num = 50  # number of simulations required for an exploration
 
 
 class Actor(nn.Module):
     def __init__(self, input_dim, output_dim):
         super(Actor, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 32)
-        self.fc2 = nn.Linear(32, 32)
-        self.fc3 = nn.Linear(32, 32)
-        self.fc4 = nn.Linear(32, output_dim)
+        self.fc1 = nn.Linear(input_dim, 16)
+        self.fc2 = nn.Linear(16, 16)
+        self.fc3 = nn.Linear(16, 16)
+        self.fc4 = nn.Linear(16, output_dim)
 
     def forward(self, x):
         x = torch.tanh(self.fc1(x))
@@ -50,10 +51,10 @@ class Actor(nn.Module):
 class Critic(nn.Module):
     def __init__(self, input_dim, action_dim):
         super(Critic, self).__init__()
-        self.fc1 = nn.Linear(input_dim + action_dim, 32)
-        self.fc2 = nn.Linear(32, 32)
-        self.fc3 = nn.Linear(32, 32)
-        self.fc4 = nn.Linear(32, 1)
+        self.fc1 = nn.Linear(input_dim + action_dim, 16)
+        self.fc2 = nn.Linear(16, 16)
+        self.fc3 = nn.Linear(16, 16)
+        self.fc4 = nn.Linear(16, 1)
 
     def forward(self, state, action):
         x = torch.cat([state, action], dim=1)
@@ -311,11 +312,11 @@ if __name__ == "__main__":
     agent = DDPG(
         state_dim=2,
         action_dim=2,
-        actor_lr=0.00001,
-        critic_lr=0.0001,
+        actor_lr=1e-3,
+        critic_lr=1e-4,
         tau=0.001,
-        capacity=2**27,
-        batch_size=2**16,
+        capacity=2**25,
+        batch_size=2**18,
     )
     scores = train(env, agent, episodes=1000000)
     writer.flush()
