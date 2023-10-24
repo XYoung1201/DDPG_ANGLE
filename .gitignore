@@ -1,6 +1,11 @@
 _pycache_
 .vscode
 .git
-rel
-runs
-v*
+rel/
+runs/
+v92/
+v820_3/
+v911/
+v1023/
+*.png
+*.jpg
