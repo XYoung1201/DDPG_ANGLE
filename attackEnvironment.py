@@ -28,7 +28,7 @@ class AttackEnv:
         self.kq_ = np.append(self.kq_, -self.R * np.sin(self.kq))
 
     def reset(self):
-        self.step = 3
+        self.step = 1
         # self.sigma = np.radians(np.random.uniform(-20,20))
         self.sigma = 0
         self.R = np.random.uniform(30, 50)
@@ -80,7 +80,8 @@ class AttackEnv:
         ):
             done = True
         if (
-            abs(self.q) > np.deg2rad(90)
+            self.R < self.step
+            or abs(self.q) > np.deg2rad(90)
             or abs(self.sigma) > np.deg2rad(60)
             or self.t > 70
         ):
@@ -115,11 +116,11 @@ class AttackEnv:
 
         reward = (
             +(30 if self.R < self.step else 0)
-            +(30 if self.q < np.radians(self.step) else 0)
+            +(60 if self.q < np.radians(self.step/2) else 0)
             +self.k1 * abs(self.R)
             + self.k2 * abs(self.q)
             + self.k3 * abs(self.sigma)
-            + self.k4 * abs(action_.max() + action_.mean())
+            # + self.k4 * abs(action_.max() + action_.mean())
             - (50 if self.dead else 0)
         )
         reward /= 10
