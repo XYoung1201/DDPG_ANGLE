@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 import torch.nn as nn
-from torch.nn import DataParallel
+# from torch.nn import DataParallel
 from torch.utils.tensorboard import SummaryWriter
 import torch.nn.functional as F
 import torch.optim as optim
