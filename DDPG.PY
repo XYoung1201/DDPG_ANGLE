@@ -10,28 +10,30 @@ from attackEnvironment import AttackEnv
 import random
 import os
 
-if __name__ == "__main__":
-    writer = SummaryWriter()
-    start_num = 0
-    deleted = start_num == 0
-    model_save_folder = "v1023/"
-    model_load_path = model_save_folder + f"checkpoints/checkpoint{start_num}.pth"
-    buffer_load_path = model_save_folder + f"checkpoints/buffer.pth"
-    device = "cpu"
-    torch.set_num_threads(8)
-    # device = 'cuda'
-    
+# These globals are required by various classes below.  They used to be
+# initialised only when running this file as a script which meant importing the
+# module resulted in ``NameError`` exceptions.  They are now defined at module
+# import time so other modules can safely import and use the classes defined
+# here.
 
-    showFig_iteration = 50  # save trajectories images
-    model_save_iteration = 500  # save the training model as **.pth
-    data_record_iteration = (
-        1  # recoard key data of one exploration such as sigma_mean q_mean
-    )
-    data_save_iteration = 100 * data_record_iteration  # save key data to file
-    test_iteration = 500  # test the model by an random scenario
-    repeat_num = 50  # number of simulations required for an exploration
+writer = SummaryWriter()
+start_num = 0
+deleted = start_num == 0
+model_save_folder = "v1023/"
+model_load_path = model_save_folder + f"checkpoints/checkpoint{start_num}.pth"
+buffer_load_path = model_save_folder + f"checkpoints/buffer.pth"
+device = "cpu"
+torch.set_num_threads(8)
+# device = 'cuda'
 
-
+showFig_iteration = 50  # save trajectories images
+model_save_iteration = 500  # save the training model as **.pth
+data_record_iteration = (
+    1  # recoard key data of one exploration such as sigma_mean q_mean
+)
+data_save_iteration = 100 * data_record_iteration  # save key data to file
+test_iteration = 500  # test the model by an random scenario
+repeat_num = 50  # number of simulations required for an exploration
 class Actor(nn.Module):
     def __init__(self, input_dim, output_dim):
         super(Actor, self).__init__()
